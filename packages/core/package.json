@@ -1,0 +1,50 @@
+{
+  "name": "@pagescms/core",
+  "version": "2.1.4",
+  "private": true,
+  "exports": {
+    "./package.json": "./package.json",
+    "./db": "./src/db/index.ts",
+    "./db/*": "./src/db/*.ts",
+    "./email/*": "./src/email/*.tsx",
+    "./fields": "./src/fields/registry.ts",
+    "./fields/*": "./src/fields/*.ts",
+    "./lib/*": "./src/lib/*.ts",
+    "./types/*": "./src/types/*.ts"
+  },
+  "dependencies": {
+    "@ltd/j-toml": "^1.38.0",
+    "@next/env": "^16.1.6",
+    "@octokit/app": "^16.1.2",
+    "@octokit/rest": "^22.0.1",
+    "@react-email/components": "^1.0.7",
+    "@react-email/render": "^1.0.7",
+    "better-auth": "^1.4.18",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "drizzle-orm": "^0.45.1",
+    "joplin-turndown-plugin-gfm": "^1.0.12",
+    "lodash.mergewith": "^4.6.2",
+    "marked": "^17.0.1",
+    "next": "^16.2.4",
+    "nodemailer": "^8.0.2",
+    "postgres": "^3.4.7",
+    "react": "^19.2.5",
+    "resend": "^6.9.1",
+    "slugify": "^1.6.6",
+    "tailwind-merge": "^3.5.0",
+    "turndown": "^7.2.0",
+    "yaml": "^2.4.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/lodash.mergewith": "^4.6.9",
+    "@types/node": "^25.2.2",
+    "@types/nodemailer": "^8.0.0",
+    "@types/react": "^19.2.14",
+    "@types/turndown": "^5.0.4",
+    "drizzle-kit": "^0.31.9",
+    "typescript": "^5.4.5"
+  }
+}
